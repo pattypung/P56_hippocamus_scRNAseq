@@ -3,7 +3,7 @@ Analysis of publicly available adult mouse hippocampus single-cell RNA sequence 
 
 The code was written under R version 4.4.1 and Rstudio version 2023.12.1+402.
 
-To focus on the excitatory neuron specific genes in our bulk RNA data, we extracted the excitatory neuron gene list from the public database https://knowledge.brain-map.org/data/Z0GBA7V12N4J4NNSUHA/summary (Anoushka Joglekar et al., 2024 ) The processed 10X v3 singel-cell counts data were downloaded from NeMo database (Identifier: nemo:dat-qwqfftg). We integrated two replicated experiment, P56_M1_HIP and P56_M2_HIP. The pseudobulk counts were extracted from the clusters triple positive for _Camk2a_; _Grin1_ and _Slc17a7_ and merged with our bulk RNA data as described in the result.
+To focus on the excitatory neuron specific genes in our bulk RNA data, we extracted the excitatory neuron gene list from the public database https://knowledge.brain-map.org/data/Z0GBA7V12N4J4NNSUHA/summary (Anoushka Joglekar et al., 2024 ) The processed 10X v3 single-cell counts data were downloaded from NeMo database (Identifier: nemo:dat-qwqfftg). We integrated two replicated experiment, P56_M1_HIP and P56_M2_HIP. The pseudobulk counts were extracted from the clusters triple positive for _Camk2a_; _Grin1_ and _Slc17a7_ and merged with our bulk RNA data as described in the result.
 
 Reference:
 
